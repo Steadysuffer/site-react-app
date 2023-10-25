@@ -3,7 +3,7 @@
     --primary-color: #039; /* Основной цвет */
     --secondary-color: #669; /* Вторичный цвет */
     --background-color: white; /* Фоновый цвет */
-    --background-translucent: rgba(255, 255, 255, 0.5); /* Прозрачный фон */
+    --background-translucent: rgba(255, 255, 255, 0.05); /* Прозрачный фон */
 
 }
 
@@ -17,10 +17,9 @@
     --font-family: "Inter", sans-serif;
     --color: rgba(255, 255, 255, 1);
     --font-size: 20px;
+    background: linear-gradient(90deg, #1e004d,#250d78);
 }
-.main {
-    background: linear-gradient(90deg, #1e004d,#250d78);/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-}
+
 
 .main-page {
     width: 100%;

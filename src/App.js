@@ -13,34 +13,30 @@ function App() {
     const menuComponents = ["Dashboard", "Audience", "Posts", "Schedules", "Income"]
     const cardsArr = [
         {
-            cardHeader: "123",
-            cardBody: "123",
-        },
-        {
             cardHeader: "Карточка №1",
-            cardBody: "Описание или тело карточки",
+            cardBody: "Описание или тело карточки 1 Описание или тело карточки 1",
         },
         {
             cardHeader: "Карточка №2",
-            cardBody: "Описание или тело карточки",
+            cardBody: "Описание или тело карточки 2",
+        },
+        {
+            cardHeader: "Карточка №3",
+            cardBody: "Описание или тело карточки 3",
         },
     ]
 
-
   return  (
-        <div className="main">
             <div className="main-page">
                 <LeftSideBar menuComponents={menuComponents}/>
                 <div className="right-side-bar">
                     <TopBar/>
                     <div className="main-content">
-                        <MainContentComponent mainContentHeaders ={mainContentHeaders[0]}/>
-                        <MainContentComponent mainContentHeaders ={mainContentHeaders[1]}/>
-                        <CardList n={cardsArr.length} cards={cardsArr}/>
+                        <MainContentComponent mainContentHeaders ={mainContentHeaders[0]} n={1} cards={cardsArr}/>
+                        <MainContentComponent mainContentHeaders ={mainContentHeaders[1]} n={cardsArr.length} cards={cardsArr}/>
                     </div>
                 </div>
             </div>
-        </div>
   )
 }
 

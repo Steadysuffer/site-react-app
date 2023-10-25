@@ -1,5 +1,6 @@
 :root {
     --card-background: rgba(255, 255, 255, 0.1); /* Фон карточки */
+    --card-border: rgba(255, 255, 255, 0.1);
 }
 .card {
     display: flex;
@@ -9,13 +10,16 @@
     height: auto;
     justify-content: space-between;
     gap: 32px;
+    padding: 10px;
+    border: 1.5px solid var(--card-border);
+    border-radius: 8px;
 }
 
 .card-header {
     display: flex;
 }
 .card-name {
-    margin: auto;
+    margin: auto 10px;
 }
 .card-body {
 

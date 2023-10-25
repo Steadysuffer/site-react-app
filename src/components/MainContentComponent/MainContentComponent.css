@@ -3,15 +3,10 @@
     flex-direction: column;
     justify-content: space-between;
 }
-
-.main-content-component-article {
+.main-content-component-article, .main-content-body {
     padding: 20px;
-    flex-basis: 10%;
-    font-size: 40px;
 }
 
-.main-content-component-graph {
-    padding: 20px;
-    flex-basis: 90%;
-
+.main-content-component-article {
+    font-size: 40px;
 }

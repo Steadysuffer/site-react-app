@@ -6,7 +6,7 @@ function CardList(props) {
 
     for (let i = 0; i < props.n; i++) {
         cards.push(
-                <div key={i} className="card">
+                <div key={i}>
                     <Card cardHeader={props.cards[i].cardHeader} cardBody={props.cards[i].cardBody}/>
                 </div>
         );
