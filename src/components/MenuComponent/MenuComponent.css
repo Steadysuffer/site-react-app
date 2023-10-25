@@ -1,0 +1,25 @@
+.menu-component-text {
+    padding-top: 7px;
+    color: white;
+
+}
+.menu-component-icon {
+    margin-right: 10px;
+
+}
+a {
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+
+
+}
+
+li {
+    list-style-type: none;
+}
+button {
+    display: none;
+
+}
+

@@ -1,0 +1,20 @@
+.gradient-button {
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    font-family: 'Inter', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background-image: linear-gradient(to right, #250D78 0%, #1e004d 51%, #250D78 100%);
+    background-size: 200% auto;
+    box-shadow: 0 0 20px rgba(0, 0, 0, .1);
+    transition: .5s;
+    width: 200px;
+    height: auto;
+}
+.gradient-button:hover {
+    background-position: right center;
+}

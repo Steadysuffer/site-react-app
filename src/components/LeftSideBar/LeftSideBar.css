@@ -1,0 +1,43 @@
+:root {
+    --primary-color: #039; /* Основной цвет */
+    --secondary-color: #669; /* Вторичный цвет */
+    --background-color: white; /* Фоновый цвет */
+    --background-translucent: rgba(255, 255, 255, 0.05); /* Прозрачный фон */
+}
+
+/* Отступы */
+:root {
+    --margin-10: 10px;
+    --padding-10: 10px;
+    --border-style: solid;
+    --border-color: rgba(255, 255, 255, 0.1);
+    --gap: 20px;
+    --font-family: "Inter", sans-serif;
+    --color: rgba(255, 255, 255, 1);
+    --font-size: 20px;
+}
+
+.left-side-bar {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    flex-basis: 20%;
+    background-color: var(--background-translucent);
+    border-color: var(--border-color);
+}
+
+.left-side-bar-icon {
+    max-height: 90px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.menu-left-side-bar {
+    align-items: flex-start;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 10px;
+    flex-shrink: 0;
+    margin: 0;
+}

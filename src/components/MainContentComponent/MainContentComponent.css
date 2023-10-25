@@ -1,0 +1,17 @@
+.main-content-component {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.main-content-component-article {
+    padding: 20px;
+    flex-basis: 10%;
+    font-size: 40px;
+}
+
+.main-content-component-graph {
+    padding: 20px;
+    flex-basis: 90%;
+
+}
